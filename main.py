@@ -48,9 +48,6 @@ def create_email_test(name):
     print(name)
     return f"Successful! {name}"
 
-def read_last():
-    ...
-
 @tree.command(
     name="create_email",
     description="Creates an Email Address",
